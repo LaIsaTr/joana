@@ -1,10 +1,7 @@
 name: Java CI
 
 on:
-  push: {}
-  schedule:
-    # Every day at 3am
-    - cron: '0 3 * * *'
+  workflow_dispatch
 
 jobs:
   build:
